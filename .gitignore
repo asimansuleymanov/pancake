@@ -1,0 +1,40 @@
+# Gradle-specific files
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# Eclipse files
+.project
+.classpath
+.settings/
+
+# IntelliJ IDEA files
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+
+# VS Code files
+.vscode/
+
+# Logs and temp files
+logs/
+*.log
+*.tmp
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Java-related
+*.class
+*.jar
+*.war
+*.ear
+
+# Spring Boot-specific
+target/
+BOOT-INF/
+META-INF/
+module-info.java
